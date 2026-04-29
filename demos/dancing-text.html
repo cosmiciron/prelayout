@@ -21,6 +21,7 @@
     .stage-wrap { display: grid; gap: 12px; align-content: start; }
     h1 { margin: 0 0 10px; font-size: 32px; }
     p.desc { margin: 0; font-size: 16px; line-height: 1.45; color: #5b4f43; }
+    p.desc + p.desc { margin-top: 8px; }
     .group { margin-top: 18px; padding-top: 12px; border-top: 1px solid #ede7df; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #9a8878; }
     label { display: block; margin-top: 10px; font-size: 13px; }
     input[type="range"], input[type="number"], select, textarea { width: 100%; font: inherit; border: 1px solid #cfc6bc; padding: 8px 10px; margin-top: 4px; background: #fff; }
@@ -91,6 +92,7 @@
     <section class="panel">
       <h1>Dancing Text</h1>
       <p class="desc">Build a moving figure from an mp4, drag it around, and switch between <code>form()</code> and <code>pour()</code> as the text tracks each cached frame.</p>
+      <p class="desc">Best results come from videos with a solid, high-contrast background behind the subject.</p>
 
       <div class="group">Video</div>
       <label>MP4 file <input id="video-input" type="file" accept="video/mp4,video/*"></label>

@@ -21,6 +21,7 @@
     .stage { position: relative; overflow: hidden; min-height: 620px; }
     h1 { margin: 0 0 10px; font-size: 32px; }
     p.desc { margin: 0; font-size: 16px; line-height: 1.45; color: #5b4f43; }
+    p.desc + p.desc { margin-top: 8px; }
     .group { margin-top: 18px; padding-top: 12px; border-top: 1px solid #ede7df; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #9a8878; }
     label { display: block; margin-top: 10px; font-size: 13px; }
     input[type="text"], input[type="range"], textarea { width: 100%; font: inherit; border: 1px solid #cfc6bc; padding: 8px 10px; margin-top: 4px; background: #fff; }
@@ -59,6 +60,7 @@
     <section class="panel">
       <h1>Pour Image</h1>
       <p class="desc">Turn a PNG alpha silhouette into a container, then pour authored text directly into its interior instead of wrapping around it.</p>
+      <p class="desc">Use a PNG with a real alpha channel; flat backgrounds will be treated as opaque image data.</p>
 
       <div class="group">Source</div>
       <label>PNG file <input type="file" id="file-input" accept="image/png,image/*"></label>
