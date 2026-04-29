@@ -1,4 +1,4 @@
-import { exclusion } from "../../src/index.js";
+import { exclusion } from "@prelayout/prelayout";
 
 /**
  * Extract sampled video silhouettes for the Dancing Text demo.

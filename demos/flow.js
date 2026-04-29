@@ -1,7 +1,7 @@
 // -- Prelayout API --
 // `flow` distributes a passage across an ordered list of bounded regions,
 // advancing through each until the text is exhausted or regions run out.
-import { flow } from "../src/index.js";
+import { flow } from "@prelayout/prelayout";
 import { helpers } from "./helpers/helpers.js";
 
 const fontFamilyInput = document.getElementById("font-family-input");

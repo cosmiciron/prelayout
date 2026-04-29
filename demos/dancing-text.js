@@ -2,7 +2,7 @@
 // The video pipeline now lives in a demo utility. This file keeps the live
 // `form()` / `pour()` interaction loop and repositions cached assemblies per
 // frame so the UI code stays focused on playback and rendering.
-import { exclusion, form, pour } from "../src/index.js";
+import { exclusion, form, pour } from "@prelayout/prelayout";
 import { helpers } from "./helpers/helpers.js";
 
 const videoInput = document.getElementById("video-input");

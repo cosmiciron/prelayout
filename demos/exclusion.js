@@ -1,7 +1,7 @@
 // -- Prelayout API --
 // `exclusion` builds opaque spatial field tokens; `form` runs the layout
 // engine with those fields as first-class obstacles.
-import { exclusion, form } from "../src/index.js";
+import { exclusion, form } from "@prelayout/prelayout";
 import { helpers } from "./helpers/helpers.js";
 
 const surface = document.getElementById("surface");

@@ -1,4 +1,4 @@
-import { produce } from "../src/index.js";
+import { produce } from "@prelayout/prelayout";
 
 const SAMPLE_ASSET_URL = "./assets/html-atlas-big-326-pages.json";
 

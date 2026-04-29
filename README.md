@@ -9,6 +9,9 @@ belongs to, and what shape it had to dodge on the way there.
 
 ![Dancing text demo: live text layout dodging animated video silhouettes](https://raw.githubusercontent.com/cosmiciron/prelayout/main/demos/assets/men-dance.gif)
 
+Try the browser demos at
+[cosmiciron.github.io/prelayout](https://cosmiciron.github.io/prelayout/).
+
 The backstory: I have been building the VMPrint engine mostly with automated
 desktop publishing and serious live editing surfaces in mind. Then `chenglou`'s
 `pretext` showed up and made a very clever point: developers want text answers
@@ -214,6 +217,9 @@ The server starts at `http://127.0.0.1:4173/`.
 
 Open `http://127.0.0.1:4173/demos/` for the demo index.
 
+The public demo site runs the published npm package through an ESM CDN, so it
+matches the package consumers install rather than importing private repo paths.
+
 Current demos:
 
 - `form`: width-bounded fragments and returned pieces
@@ -232,10 +238,9 @@ Showcase clips:
 - [Anime Girl Dancing With Texts](https://youtu.be/UwooKHDp6hs): the full demo UI, sliders and all.
 - [Man Dancing With Texts](https://youtu.be/eQcJLhVWBeU): the funny one, because layout engines deserve jokes too.
 
-The demos use browser import maps and read the built engine from
-`/engine/dist/...`, so serve them from the repo root. Opening the files directly
-from disk is an excellent way to meet the less charming parts of browser module
-loading.
+The demos use browser import maps, so serve them from the repo root. Opening
+the files directly from disk is an excellent way to meet the less charming parts
+of browser module loading.
 
 ## Helpers
 

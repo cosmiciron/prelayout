@@ -1,7 +1,7 @@
 // -- Prelayout API --
 // `helpers.imageToExclusion` turns PNG alpha into an assembly token; `pour` then
 // uses that token as a real container interior instead of an outside obstacle.
-import { pour } from "../src/index.js";
+import { pour } from "@prelayout/prelayout";
 import { helpers } from "./helpers/helpers.js";
 
 const fileInput = document.getElementById("file-input");

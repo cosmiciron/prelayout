@@ -1,7 +1,7 @@
 // -- Prelayout API --
 // `helpers.imageToExclusion` samples an image alpha channel into a weighted
 // assembly token; `form` treats that token as a first-class spatial obstacle.
-import { exclusion, form } from "../src/index.js";
+import { exclusion, form } from "@prelayout/prelayout";
 import { helpers } from "./helpers/helpers.js";
 
 const fileInput   = document.getElementById("file-input");

@@ -1,7 +1,7 @@
 import {
   debugBuildHiddenDocument,
   form
-} from "../src/index.js";
+} from "@prelayout/prelayout";
 
 const content = JSON.stringify({
   elements: [

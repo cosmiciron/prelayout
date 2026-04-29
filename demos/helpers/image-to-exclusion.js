@@ -1,4 +1,4 @@
-import { exclusion } from "../../src/index.js";
+import { exclusion } from "@prelayout/prelayout";
 
 /**
  * Sample an image's alpha channel into a Prelayout exclusion assembly.

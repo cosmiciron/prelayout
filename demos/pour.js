@@ -1,7 +1,7 @@
 // -- Prelayout API --
 // `pour` fits as much text as possible into one exclusion shape and reports
 // both the consumed slice and the remaining text.
-import { exclusion, pour } from "../src/index.js";
+import { exclusion, pour } from "@prelayout/prelayout";
 import { helpers } from "./helpers/helpers.js";
 
 const shapeInput = document.getElementById("shape-input");

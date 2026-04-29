@@ -1,6 +1,6 @@
 // -- Prelayout API --
 // `form` lays out an unbounded passage and returns positioned text fragments.
-import { form } from "../src/index.js";
+import { form } from "@prelayout/prelayout";
 import { helpers } from "./helpers/helpers.js";
 
 const surface = document.getElementById("surface");

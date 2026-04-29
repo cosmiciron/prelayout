@@ -1,7 +1,7 @@
 // -- Prelayout API --
 // `fit` fills a bounded region with as much text as will fit, then stops.
 // It returns both what landed inside and what overflowed.
-import { fit } from "../src/index.js";
+import { fit } from "@prelayout/prelayout";
 import { helpers } from "./helpers/helpers.js";
 
 const chain = document.getElementById("chain");
