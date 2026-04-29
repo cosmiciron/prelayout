@@ -233,8 +233,13 @@ Current demos:
 
 Showcase clips:
 
-- [Anime Girl Dancing With Texts](https://youtu.be/UwooKHDp6hs): the full demo UI, sliders and all.
-- [Man Dancing With Texts](https://youtu.be/eQcJLhVWBeU): the funny one, because layout engines deserve jokes too.
+[![Anime Girl Dancing With Texts: Prelayout demo UI with live text wrapping around animated video silhouettes](https://img.youtube.com/vi/UwooKHDp6hs/hqdefault.jpg)](https://youtu.be/UwooKHDp6hs)
+
+[Anime Girl Dancing With Texts](https://youtu.be/UwooKHDp6hs): the full demo UI, sliders and all.
+
+[![Man Dancing With Texts: Prelayout text layout demo wrapping text around a dancing figure](https://img.youtube.com/vi/eQcJLhVWBeU/maxresdefault.jpg)](https://youtu.be/eQcJLhVWBeU)
+
+[Man Dancing With Texts](https://youtu.be/eQcJLhVWBeU): the funny one, because layout engines deserve jokes too.
 
 The demos use browser import maps, so serve them from the repo root. Opening
 the files directly from disk is an excellent way to meet the less charming parts
