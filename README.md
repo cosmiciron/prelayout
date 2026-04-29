@@ -233,7 +233,7 @@ Current demos:
 
 Showcase clips:
 
-[![Anime Girl Dancing With Texts: Prelayout demo UI with live text wrapping around animated video silhouettes](https://img.youtube.com/vi/UwooKHDp6hs/hqdefault.jpg)](https://youtu.be/UwooKHDp6hs)
+[![Anime Girl Dancing With Texts: Prelayout demo UI with live text wrapping around animated video silhouettes](https://img.youtube.com/vi/UwooKHDp6hs/maxresdefault.jpg)](https://youtu.be/UwooKHDp6hs)
 
 [Anime Girl Dancing With Texts](https://youtu.be/UwooKHDp6hs): the full demo UI, sliders and all.
 
