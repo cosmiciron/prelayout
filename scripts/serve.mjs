@@ -77,5 +77,5 @@ const server = createServer((request, response) => {
 
 server.listen(port, host, () => {
   console.log(`prelayout demos at http://${host}:${port}/`);
-  console.log(`open http://${host}:${port}/demos/solve.html or /demos/fit.html`);
+  console.log(`open http://${host}:${port}/demos/`);
 });

@@ -208,8 +208,6 @@ Useful reading:
 ## Run The Demos
 
 ```bash
-npm install
-npm run build
 npm run serve
 ```
 
