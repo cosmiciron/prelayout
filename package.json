@@ -1,7 +1,7 @@
 {
   "name": "@prelayout/prelayout",
   "version": "0.1.0",
-  "description": "Headless text layout with solved pieces, continuations, exclusions, and paginated pages.",
+  "description": "Renamed and relaunched as Layoutmaster. Use @layoutmaster/layoutmaster.",
   "author": "cosmiciron",
   "license": "Apache-2.0",
   "type": "module",
@@ -46,12 +46,12 @@
   "packageManager": "npm@11.12.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cosmiciron/prelayout.git"
+    "url": "git+https://github.com/cosmiciron/layoutmaster.git"
   },
   "bugs": {
-    "url": "https://github.com/cosmiciron/prelayout/issues"
+    "url": "https://github.com/cosmiciron/layoutmaster/issues"
   },
-  "homepage": "https://github.com/cosmiciron/prelayout#readme",
+  "homepage": "https://github.com/cosmiciron/layoutmaster#readme",
   "devDependencies": {
     "@types/node": "^22.13.1",
     "bidi-js": "^1.0.3",
